@@ -14,9 +14,28 @@ return [
 	'framework' => 'bootstrap-5',
 	'components' => [
 		'table' => [
-			'view'  => 'form-components::{framework}.table',
+			'view'  => 'table-components::{framework}.table.table',
 			'class' => Table::class,
 		],
-
+		'action' => [
+			'view'  => 'table-components::{framework}.table.action',
+			'class' => Action::class,
+		],
+		'td' => [
+			'view'  => 'table-components::{framework}.table.td',
+			'class' => Td::class,
+		],
+		'btn-edit' => [
+			'view'  => 'table-components::{framework}.button.edit',
+			'class' => EditButton::class,
+		],
+		'btn-delete' => [
+			'view'  => 'table-components::{framework}.button.delete',
+			'class' => DeleteButton::class,
+		],
+		'btn-show' => [
+			'view'  => 'table-components::{framework}.button.show',
+			'class' => ShowButton::class,
+		],
 	],
 ];
