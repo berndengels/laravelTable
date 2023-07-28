@@ -1,12 +1,12 @@
 <?php
 
-namespace Bengels\LaravelTable\Components;
+namespace Bengels\LaravelTable\Components\Table;
 
 use Closure;
-use Illuminate\View\Component;
 use App\Libs\DataBinds\DataBinder;
 use App\Libs\DataBinds\HandleDataValue;
 use Illuminate\Contracts\View\View;
+use Bengels\LaravelTable\Component\Component;
 
 class Td extends Component
 {

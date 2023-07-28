@@ -1,11 +1,11 @@
 <?php
 
-namespace Bengels\LaravelTable\Components;
+namespace Bengels\LaravelTable\Components\Table;
 
 use Closure;
-use Illuminate\View\Component;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Collection;
+use Bengels\LaravelTable\Component\Component;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class Table extends Component

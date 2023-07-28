@@ -1,13 +1,13 @@
 <?php
 
-namespace Bengels\LaravelTable\Components;
+namespace Bengels\LaravelTable\Component\Table;
 
 
 use Closure;
 use Illuminate\Support\Str;
 use App\Libs\DataBinds\DataBinder;
 use Illuminate\Contracts\View\View;
-use Illuminate\View\Component;
+use Bengels\LaravelTable\Component\Component;
 
 class Action extends Component
 {
