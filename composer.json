@@ -1,0 +1,38 @@
+{
+    "name": "berndengels/laravel-table",
+    "type": "project",
+    "description": "A Laravel Blade-Table Component.",
+    "keywords": ["framework", "laravel", "table", "table-component", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernd Engels",
+            "email": "engels@f50.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "php": "^8.0|^8.1|^8.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bengels\\LaravelTable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bengels\\LaravelTable\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bengels\\LaravelTable\\LaravelTableServiceProvider"
+            ]
+        }
+    }
+}
